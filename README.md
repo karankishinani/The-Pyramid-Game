@@ -10,9 +10,9 @@ Source code: "Juego de la Piramide.py"
 Implementing the A* Algorithm in Python for implementing an intelligent computer to play against a human in The Pyramid Game (a variation of the checkers game).
 
 ## Description of the Game (Reference: San Diego State University)
-```
+
 Original description link: http://www.eli.sdsu.edu/courses/fall95/cs596_1/project/Checkers.html
-```
+
 ```
 1  1 ▓ 1 ▓ 1 ▓ 1 ▓  
 2  ▓ 1 ▓ 1 ▓ 1 ▓ ░  
@@ -27,7 +27,8 @@ Original description link: http://www.eli.sdsu.edu/courses/fall95/cs596_1/projec
 Ten checkers are set up on each side, in the form of a pyramid. The Black pieces are on 1, 2, 3, 4, 6, 7, 8, 10, 11, 15. All men move only forward, do not crown, jump as in regular Checkers, but do not capture. That is, no pieces are removed from the board. It is compulsory to jump when able, and as far as able. The object of play is to maneuver one's own pieces to the squares originally occupied by the adverse pyramid. The first to do so wins. If in the course of play some pieces of one color are moved into a formation such that not all of them can get within the objective area, that color loses at once. For example, if White has moved pieces 3, 4, 8, and then is forced to jump 19-12, he loses, since the man on 12 cannot get inside the pyramid.
 
 ## Sample Game
- 
+
+```
 Juego de la Pirámide
 Tablero Inicial:
    1 2 3 4 5 6 7 8
